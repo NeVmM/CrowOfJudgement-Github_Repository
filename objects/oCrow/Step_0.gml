@@ -280,7 +280,7 @@ part_sys = part_system_create();
 part_type = part_type_create();
 	
 //Running Particle Properties
-part_type_shape(part_type, pt_shape_circle); // Set shape to pixel or customize
+part_type_shape(part_type, pt_shape_pixel); // Set shape to pixel or customize
 part_type_size(part_type, 0.1, 0.2, 0.1, 0); // Size of the particle
 //(THIS IS USED HERE, IF THE RANDOM-COLOR BELOW IS NOT PRESENT)  >>>   part_type_color1(part_type, c_white); // You can change the color
 part_type_speed(part_type, 1, 2, 0, 0); // Speed of the particles
